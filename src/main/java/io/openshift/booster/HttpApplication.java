@@ -33,7 +33,6 @@ public class HttpApplication extends AbstractVerticle {
               }
               future.handle(ar.mapEmpty());
             });
-
   }
 
   private void greeting(RoutingContext rc) {
